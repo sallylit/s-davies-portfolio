@@ -3,7 +3,7 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
-#about, #skills, #portfolio {
+#about, #skills{
 	height: 600px;
 	padding-top: 20px;
 }
@@ -124,7 +124,11 @@ main h2{
 /******* PORTFOLIO *******/	
 
 #portfolio {
+	height: 700px;
 	text-align: center;
+	padding-top: 20px;
+	background-color: white;
+
 }
 
 #portfolio h2{
@@ -145,7 +149,7 @@ main h2{
 	padding: 0 35px;
 }
 
-#austen {
+#unplugged {
 	background: #84a1a5;
 	overflow: auto;
 }
@@ -158,6 +162,7 @@ main h2{
 #java {
 	background: #b9c5c9;
 	overflow: auto;
+	padding-bottom: 80px;
 }
 
 #java a{
@@ -170,16 +175,17 @@ main h2{
 	font-weight: bold;
 	}
 
-#austen img{
+#unplugged img{
 	padding-top: 20px;
-	padding-bottom: 95px;
+	padding-bottom: 25px;
 }
 #rogue img{
 	padding-top: 20px;
-	padding-bottom: 59px;
+	padding-bottom: 112px;
 }
-#cozy img{
+#java img{
 	padding-top: 20px;
+	padding-bottom: 79px;
 }
 
 /****** CONTACT ********/
@@ -198,7 +204,9 @@ main h2{
 #contact {
 	background-color: #b4cfd9;
 }
+
 #contact p{
 	font-family: 'Playfair Display', serif;
 	font-size: 25px;
+	line-height: 26px;
 	}
