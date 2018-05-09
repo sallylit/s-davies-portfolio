@@ -77,8 +77,10 @@ main h2{
 }
 /****** ABOUT ******/
 #about h2{
+	font-family: 'Cherry Cream Soda', cursive;
 	font-size: 30px;
 }
+
 #about p{
 	font-size: 20px;
 	line-height: 29px;
@@ -98,11 +100,12 @@ main h2{
 /******* SKILLS *********/
 
 #skills {
-	background-color: #b4cfd9;
+	background-color: #f2bbc3;
 	text-align: center;
 }
 
 #skills h2{
+	font-family: 'Cherry Cream Soda', cursive;
 	text-align: left;
 	font-size: 30px;
 }
@@ -121,6 +124,10 @@ main h2{
 	text-align: justify;
 }
 
+#skills i{
+	padding-bottom: 10px;
+}
+
 /******* PORTFOLIO *******/	
 
 #portfolio {
@@ -132,6 +139,7 @@ main h2{
 }
 
 #portfolio h2{
+	font-family: 'Cherry Cream Soda', cursive;
 	text-align: left;
 	font-size: 30px;
 }
@@ -210,3 +218,9 @@ main h2{
 	font-size: 25px;
 	line-height: 26px;
 	}
+
+#contact i{
+	padding-right: 10px;
+	color: black;
+}
+
